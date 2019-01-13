@@ -1,0 +1,30 @@
+
+
+
+
+/* Image Modifiers */
+
+#headerImage {
+    border: 2px solid #333;
+    box-shadow: 8px 8px 15px 8px rgba(30, 30, 30, 60%);
+}
+#miniImage {
+    height: 4rem;
+    width: 4rem;
+}
+#backgroundImage {
+    background: linear-gradient(
+        rgba(30,30,30,0),
+        rgba(30,30,30,.9)
+    ),
+    url(../pictures/code2b.png);
+}
+
+/* Header Style */
+
+#headerTitle {
+    background: linear-gradient(
+        rgba(30, 30, 30, 70%),
+        transparent
+    );
+}
